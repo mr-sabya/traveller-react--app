@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #0E0F0F;
+}
+
+ul, ol {
+    list-style: none;
+    margin: 0 !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.margin-top {
+    padding-top: 80px;
+}
+
+.margin-bottom {
+    padding-bottom: 80px;
+}
+
+.top-border{
+    border-top: 1px solid #FFA200;
+}
+
+.black {
+    background-color: #0E0F0F;
+}
+
+.button-all {
+    background-color: #FFA200;
+    border: 1px solid #FFA200;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button-all:hover {
+    background-color: transparent;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+}
+
+.bg-image {
+    background-image: url(./images/re-edited-travel-vlog/bg-1@2x.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.background {
+    background-image: url(./images/re-edited-travel-vlog/bg-1@2x.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.page-link{
+    background-color: transparent !important;
+    border: 1px solid #FFA200 !important;
+    color: #fff !important;
+    border-radius: 50% !important;
+    padding: 14px 12px !important;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.page-link:hover{
+    color: #FFA200 !important;
+}
+
+.pagination .active .page-link{
+    color: #FFA200 !important;
+}
+
+@media only screen and (max-width:425px) {
+
+}

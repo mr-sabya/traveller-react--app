@@ -1,0 +1,58 @@
+.subscribe-bg {
+    background-image: url(../../images/Rectangle11.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.subscribe-card {
+    padding: 50px 0px;
+}
+
+.subscribe-bg .subscribe-text p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #FFA200;
+    margin: 0;
+}
+
+.subscribe-button {
+    float: right;
+    width: 100%;
+}
+
+.subscribe-bg .subscribe-button .subscribe {
+    width: 70%;
+    padding: 15px 20px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.subscribe-bg .subscribe-button .sub-button {
+    width: 30%;
+    float: left;
+    background-color: #FFA200;
+    border: 1px solid #FFA200;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+@media only screen and (max-width:425px) {
+    .subscribe-bg .subscribe-button .sub-button {
+        padding: 15px 5px;
+    }
+
+    .subscribe-bg .subscribe-text p{
+        text-align: center;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+}

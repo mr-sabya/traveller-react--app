@@ -1,0 +1,76 @@
+
+
+.portfolio-bg .portfolio-heading h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: #FFA200;
+    text-align: center;
+}
+
+.portfolio-bg .portfolio {
+    display: flex;
+}
+
+.portfolio-bg .portfolio .portfolio-item .port-image {
+    position: relative;
+}
+
+.portfolio-bg .portfolio .portfolio-item .port-image img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.portfolio-bg .portfolio .portfolio-item .portfolio-button {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.portfolio-bg .portfolio .portfolio-item .port-image:hover img {
+    opacity: 0.3;
+}
+
+.portfolio-bg .portfolio .portfolio-item .port-image:hover .portfolio-button {
+    opacity: 1;
+}
+
+.portfolio-bg .portfolio .portfolio-item p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFA200;
+    display: inline-block;
+}
+
+.portfolio-bg .portfolio .portfolio-item a {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 40000;
+    font-size: 10px;
+    color: #FFFFFF;
+    line-height: 20px;
+}
+
+.button-hover {
+    background-color: #FFA200;
+    border: 1px solid #FFA200;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button-hover:hover {
+    background-color: transparent;
+}

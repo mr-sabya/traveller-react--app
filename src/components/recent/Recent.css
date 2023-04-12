@@ -1,0 +1,122 @@
+.recent-heading h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: #FFA200;
+    text-align: left;
+}
+
+
+.item-image {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.item-image .thumb{
+    width: 100%;
+}
+
+.item-image .recent-text {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+}
+.item-image .recent-text a{
+    color: #FFA200;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.item-image .recent-text p{
+    margin-bottom: 5px;
+}
+
+.item-image .recent-text .blog-link{
+    font-size: 12px;
+    color: #fff;
+}
+.item-image .recent-text .blog-link i{
+    margin-right: 5px;
+}
+.item-image .recent-text .blog-link span{
+    margin-right: 10px;
+}
+
+.item-image .play-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+
+.recent-video{
+    margin-bottom: 31px;
+}
+
+.recent-video .video-thumb{
+    position: relative;
+    width: 40%;
+    float: left;
+}
+
+.recent-video .video-text{
+    width: 60%;
+    float: left;
+    padding-left: 10px;
+}
+
+.recent-video .video-text p{
+    margin-top: -7px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+.recent-video .video-text .video-link {
+    font-size: 12px;
+    color: #fff;
+}
+.recent-video .video-text .video-link i{
+    margin-right: 5px;
+}
+
+.recent-video .video-text .video-link span{
+    margin-right: 10px;
+}
+
+.recent-video .video-thumb .thumb{
+    width: 100%;
+}
+
+.recent-video .video-thumb .play{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    background: #ffa2009e;
+    border-radius: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);   
+}
+
+.recent-video .video-thumb:hover .play{
+    background: #FFA200;
+}
+
+.recent-video .video-thumb .play .play-icon{
+    width: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin: auto;
+    
+}

@@ -1,0 +1,52 @@
+.bg-area .banner {
+    position: relative;
+    z-index: 111;
+}
+
+.bg-area .banner img {
+    width: 55%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 52vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1111;
+}
+
+.bg-area .banner-btn {
+    border: 2px solid #FFA200;
+    position: absolute;
+    top: 80vh;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 11111;
+}
+
+.bg-area .banner-btn a {
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 40px;
+    padding: 10px 80px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    transition: all linear .2s;
+}
+
+.bg-area .banner-btn:hover a {
+    color: #0E0F0F;
+    background-color: #ffa200;
+}
+
+
+@media only screen and (max-width:425px) {
+    .bg-area .banner-btn{
+        top: 70vh;
+    }
+
+    .bg-area .banner-btn a{
+        padding: 6px 34px;
+    }
+}

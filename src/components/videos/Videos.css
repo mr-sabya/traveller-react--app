@@ -1,0 +1,126 @@
+.vlog-search .search {
+    border: 1px solid #FFA200;
+    width: 100%;
+    background-color: black;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 6px;
+}
+
+.vlog-short{
+    width: 70%;
+    float: right;
+}
+
+.vlog-short .short-text {
+    width: 25%;
+    float: left;
+}
+
+.vlog-short p {
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    float: left;
+    line-height: 36px;
+    margin-bottom: 0;
+}
+
+.vlog-short .area {
+    width: 75%;
+    float: left;
+}
+
+.vlog-short .area .short {
+    border: 1px solid #FFA200;
+    width: 100%;
+    background-color: black;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 6px;
+}
+
+.vlog-short a {
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    /* padding: 6px 20px 6px 10px; */
+    margin: 0 10px;
+    padding: 6px 10px 6px 5px;
+    border: 1px solid #FFA200;
+}
+
+.vlog-short a svg {
+    margin-left: 30px;
+}
+
+
+
+.item-video{
+    margin-bottom: 31px;
+}
+
+.item-video .video-thumb{
+    position: relative;
+    width: 100%;
+}
+
+.item-video .video-text{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
+}
+
+.item-video .video-text p{
+    margin-top: -7px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+.item-video .video-text .video-link {
+    font-size: 12px;
+    color: #fff;
+}
+.item-video .video-text .video-link i{
+    margin-right: 5px;
+}
+
+.item-video .video-text .video-link span{
+    margin-right: 10px;
+}
+
+.item-video .video-thumb .thumb{
+    width: 100%;
+}
+
+.item-video .video-thumb .play{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    background: #ffa2009e;
+    border-radius: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);   
+}
+
+.item-video .video-thumb:hover .play{
+    background: #FFA200;
+}
+
+.item-video .video-thumb .play .play-icon{
+    width: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+}

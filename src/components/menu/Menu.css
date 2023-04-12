@@ -1,0 +1,103 @@
+.navbar {
+    padding: 0;
+}
+
+.navbar .nav {
+    width: 100%;
+    margin-top: 90px;
+    position: absolute;
+    z-index: 11;
+}
+
+.navbar .nav .navbar-logo {
+    width: 20%;
+    float: left;
+}
+
+.navbar .nav .navbar-menu {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    float: left;
+}
+
+.navbar .nav .navbar-menu ul {
+    line-height: 31px;
+}
+.navbar .nav .navbar-menu ul li {
+    float: left;
+    transition: all linear .3s;
+}
+
+.navbar .nav .navbar-menu ul li:hover {
+    background-image: url(../../images/set\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transform: scale(1.0);
+}
+
+
+.navbar .nav .navbar-menu ul li a {
+    padding: 10px 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    transition: all linear .3s;
+}
+
+.navbar .nav .navbar-menu ul li:hover a {
+    color: #0E0F0F;
+}
+
+.navbar .nav .login {
+    text-align: right;
+    width: 20%;
+    float: left;
+    display: flex;
+}
+
+.navbar .nav .login ul {
+    width: 100%;
+    line-height: 31px;
+}
+
+.navbar .nav .login ul li {
+    float: right;
+}
+
+.navbar .nav .login ul li a {
+    transition: all linear .2s;
+}
+
+.navbar .nav .login ul li:hover a {
+    color: #FFA200;
+}
+
+.navbar .nav .login ul .slash {
+    color: #FFFFFF;
+    margin: 0 4px;
+}
+
+.navbar .nav .login ul li a {
+    padding: 10px 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+
+@media only screen and (max-width:425px) {
+    .navbar .nav .navbar-menu{
+        display: none !important;
+    }
+
+    .navbar .nav .navbar-logo{
+        width: 50%;
+    }
+    .navbar .nav .login{
+        width: 50%;
+    }
+}

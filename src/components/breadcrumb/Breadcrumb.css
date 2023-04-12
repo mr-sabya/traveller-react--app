@@ -1,0 +1,29 @@
+.blog-margin {
+    margin-bottom: 0;
+}
+
+.blog ul {
+    float: right;
+}
+
+.blog ul li {
+    float: left;
+}
+
+.blog ul li span {
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.blog ul li a {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 0 10px;
+    transition: all linear .2s;
+}
+
+.blog ul li a:hover {
+    color: #FFA200;
+}
